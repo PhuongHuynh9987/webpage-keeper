@@ -87,7 +87,7 @@ a:active {
 }
 
 /* Modal */
-.modal-container {
+.modal-box {
     background-color: rgba(0,0,0,0.6);
     display: none;                                 /*will trigger will JS*/
     position: fixed;                                /*we want this to be at the same spot the whole time*/
@@ -97,10 +97,10 @@ a:active {
     bottom: 0;
 }
 
-.show-modal {
-    display: flex;
+.show-modal { 
+    display: flex; 
     justify-content: center;                   /*align items horizontally*/
-    align-items: center;                        /*align items vertically*/
+    align-items: center;                       /* align items vertically*/
 }
 
 .modal {
@@ -122,15 +122,15 @@ a:active {
 }
 
 
-/* .close-icon {
+.close-icon {
     float: right;
     color: white;
     font-size: 24px;   /*use font-size for icon*/
-    /* position: relative;           /*allows us to move*/
-    /* top: 13px; */
-    /* right:13px; */
-    /* cursor: pointer; */
-/* }  */
+    position: relative;           /*allows us to move*/
+    top: 13px;
+    right:13px;
+    cursor: pointer;
+} 
 
 .modal-header{
     background: var(--primary-color);
